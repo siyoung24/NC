@@ -4,6 +4,7 @@
 - `index.html`: 공개 홈페이지. 계정 로그인 없이 공개 페이지 이용 가능
 - `api/unlock.js`: 입력한 공용 비밀번호를 서버에서 검증하고 HttpOnly 세션 쿠키 발급
 - `api/private-page.js`: 유효한 세션 쿠키가 있을 때만 관계자 전용 문서 HTML 반환
+- 
 - `vercel.json`: Vercel 배포 설정
 
 ## 1. Vercel 환경 변수 설정
